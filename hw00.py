@@ -21,7 +21,7 @@ def main():
     NOTE: printing is different than returning a result
     """
     print("hello world")
-    print("printed line 2: (the default it to add a line jump at the end)")
+    print("printed line 2: (the default is to add a line jump at the end)")
     print("printed line 3: (this line will not add a default jump)", end="")
     print("~~~ NOTE: this is NOT in a new line ~~~")
 
