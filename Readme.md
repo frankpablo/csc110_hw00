@@ -18,9 +18,9 @@ output:
 ---
 \vspace{-5\baselineskip}
 
-**Due: By Lecture 14, midnight**
+**Due: Before Lecture 5**
  
-*Note: Homework Assignment 3 should be completed individually.*
+*Note: Homework Assignment 00 should be completed individually.*
 
 
 # Objective
