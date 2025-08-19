@@ -46,18 +46,18 @@ Read all of these instructions and only then go back and "DO" the things you nee
 
 ## Reading 1:
 
-The Command Line Interface (CLI) is a program that allows users to communication with the computer's operating system using text commands. 
+The Command Line Interface (CLI) is a program that allows users to communicate with the computer's operating system using text commands. 
 It is a simpler method of interacting with your computer than the one most people are used to now, which is the Graphical User Interface, or GUI.
 While a GUI just requires that you move a mouse and click on icons or buttons, in a CLI, you type commands and execute them. 
 The result can be 1) symbols printed to the terminal window, 2) changes made to files, 3) programs being executed, or all of the above.
 
 In a CLI, we use a window called a **Terminal** or a Console, that has a typing and reading area. 
-Underneath this window, a program called the **Shell** can read what the user writes and can take actions like printing out information to the window, 
+Working under the hood of this window, a program called the **Shell** can read what the user writes and can take actions like printing out information to the window, 
 changing the state of the filesystem, or running other programs (playing sounds, starting up zoom, or running python). 
 
-When a user writes into the Terminal, it is important that they use KNOWN instructions for the Shell, otherwise it will not know what you mean. 
-THere are different Shell programs, but they mostrly do the same things. 
-We will use the one called Bash, mostly, but ou don;t need to worry about memorizing that, since we will be only using it to:
+When a user writes into the Terminal, it is important that they use instructions KNOWN to the Shell, otherwise it will not know what you mean. 
+There are different Shell programs, but they mostrly do the same things. 
+We will use the one called Bash, mostly, but you don't need to worry about memorizing its commands, since we will be only using it to:
 
   - move around in the filesystem, and
   - call python programs
@@ -66,12 +66,12 @@ We will use the one called Bash, mostly, but ou don;t need to worry about memori
 
   * Open a Terminal window (Mac: search for Terminal; Win: Search for Windows Terminal)
   * You'll be focused at the filesystem location called home:
-      *  Mac: /Users/<username> (e.g. /Users/pfrank)
-      *  Win: C:\Users\<username> (e.g. C:\Users\pfrank)... and yes, Win uses backslash (╯°□°）╯︵ ┻━┻
-      *  Linux: /home/<username> (e.g. /home/pfrank)
+      *  Mac: /Users/`<username>` (e.g. /Users/pfrank)
+      *  Win: C:\Users\`<username>` (e.g. C:\Users\pfrank)... and yes, Win uses backslash (╯°□°）╯︵ ┻━┻
+      *  Linux: /home/`<username>` (e.g. /home/pfrank)
   * In Mac/Linux, the symbol ~ (tilde) is a nickname for /Users/<username> or /home/<username> respectively.
   * In windows, you also have a ~ but it points to the linux home (I can explain this later).
-      * So, when in Win, I refer to ~, I mean C:\Users\<username>
+      * So, when in Win, I refer to ~, I mean C:\Users\\<username\>
   * Navigate to ~/Documents/csc110/`<name of this repository directory>`
   * if you execute the command `ls`
       * you should see the Readme.md and the file called hw00.py 
