@@ -22,7 +22,7 @@ Everything these days is "immediate feedback" this, and "rapid interaction" that
 We're being made addicted to instant gratification and feedback to such a degree that anything that takes longer than 2 or 3 minutes to do, starts feeling boring. Reading, is one of those things.
 
 In this class, you'll have to read and follow instructions. A LOT of them, and quite often, they are complex and convoluted. They are, however, all quite doable.
-The biggest things you will absolutley need in order to succeed, is to be able to read, focus, and pay attention to details. This is your first go at it.
+The biggest things you will absolutely need in order to succeed, is to be able to read, focus, and pay attention to details. This is your first go at it.
 
 Read all of these instructions and only then go back and "DO" the things you need to modify or execute.
 
@@ -38,7 +38,7 @@ Working under the hood of this window, a program called the **Shell** can read w
 changing the state of the filesystem, or running other programs (playing sounds, starting up zoom, or running python).
 
 When a user writes into the Terminal, it is important that they use instructions KNOWN to the Shell, otherwise it will not know what you mean.
-There are different Shell programs, but they mostrly do the same things.
+There are different Shell programs, but they mostly do the same things.
 We will use the one called Bash, mostly, but you don't need to worry about memorizing its commands, since we will be only using it to:
 
   - move around in the filesystem, and
@@ -64,10 +64,10 @@ We will use the one called Bash, mostly, but you don't need to worry about memor
       * If it doesn't work, try   `python3.13 hw00.py`
 
 ## Task 4: modify the original version of the program
-  * Open the file using Sublime Text.
+  * Open the file using Thonny.
   * Modify the code so that, you do the following:
       1. remove the `, end=""` at the end of the third print. Note it includes the comma. Taking care to close the parenthesis.
-      2. modify the text of what remains the third print so it reads: ``
+      2. modify the text of what remains in the third print so it reads: `printed line 3: (this line also adds a default jump)`
       3. modify the text of what was the fourth print so it reads: `~~~ NOTE: this is NOW in a new line ~~~`
   * save the file and execute it again (in the terminal): `python3 hw00.py`
   * Verify the output looks like this:
@@ -97,7 +97,7 @@ The submission:
   * Your grade will be the percentage of tests you pass. If there are no tests (like in this HW, then it just needs to compile and do what the Readme asks).
 
 
-          1. Stage: add al necessary files to the list of tracked files
+          1. Stage: add all necessary files to the list of tracked files
           2. Commit: save a checkpoint in the history of modifications (if you have not already done this)
           3. Push: push changes to your remote repository
-I can see and grade all remote repositoriesof your hw00 files and will grade them at the due date/time so make sure it is complete and running by then.
+I can see and grade all remote repositories of your hw00 files and will grade them at the due date/time so make sure it is complete and running by then.
